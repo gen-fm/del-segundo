@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+    <channel>
+        <title>Del Segundo No Ne Acuerda Nadie</title>
+        <link>https://gen-fm.github.io/del-segundo/</link>
+        <description>Del segundo, es un auténtico nido de perdedores, un espacio que busca reivindicar (y no porpose) a los artistas que formaron parte de grandes bandas o proyectos musicales y por vaya a saber qué circunstancias (falta de talento, adicciones o poco agraciados estéticamente?) nunca recibieron el reconocimiento correspondiente. Este espacio le debe su nombre a un ganador nato, el Doctor Bilardo, una especie de faro triunfante en un espacio en el que todos son derrotados.</description>
+        <itunes:summary>Del segundo, es un auténtico nido de perdedores, un espacio que busca reivindicar (y no porpose) a los artistas que formaron parte de grandes bandas o proyectos musicales y por vaya a saber qué circunstancias (falta de talento, adicciones o poco agraciados estéticamente?) nunca recibieron el reconocimiento correspondiente. Este espacio le debe su nombre a un ganador nato, el Doctor Bilardo, una especie de faro triunfante en un espacio en el que todos son derrotados.</itunes:summary>
+        <itunes:author>Gen Podcast</itunes:author>
+
+        <itunes:owner>
+            <itunes:name>Gen Podcast</itunes:name>
+            <itunes:email>genpodcasts@gmail.com</itunes:email>
+        </itunes:owner>
+        
+        
+            <itunes:category text="Politics"></itunes:category>
+        
+            <itunes:category text="Technology"><itunes:category text="Information Technology"/></itunes:category>
+        
+        <language>es-ar</language>
+        <ttl>1440</ttl>
+        <lastBuildDate>Wed, 24 Apr 2019 22:55:30 +0300</lastBuildDate>
+
+        <image>
+            <title>Del Segundo No Se Acuerda Nadie</title>
+            <url>https://gen-fm.github.io/del-segundo/img-cuadrada.png</url>
+            <link>https://gen-fm.github.io/del-segundo/</link>
+        </image>
+        <itunes:image href="https://gen-fm.github.io/del-segundo/img-cuadrada.png" />
+        <itunes:explicit>No</itunes:explicit>
+        
+        <webMaster>ivo@data99.com.ar</webMaster>
+        
+
+        
+        <managingEditor>genpodcasts@gmail.com</managingEditor>
+        
+
+        
+        <item>
+            <title>Stuart Zender</title>
+            <guid>https://gen-fm.github.io/del-segundo/audios-y-rss/s01e01-delsegundo.html</guid>
+            <link>https://gen-fm.github.io/del-segundo/audios-y-rss/s01e01-delsegundo.html</link>
+            <pubDate>Tue, 23 Apr 2019 19:00:00 +0300</pubDate>
+            <description><![CDATA[Jamiroquai fue una especie de banda extraña para su época, su música no era moda, en tiempos donde era muy importante la moda. Acid Jazz, Funk y sonidos de música negra pasados por un tamiz muy fino, con Stuart Zender como director de orquesta (no de flashes, esta claro). Zender además fue bajista de Stevie Wonder, Amy Winehouse y varios proyectos propios.
+            <br />Ideas: <ul>
+            </ul>]]>
+            </description>
+            <itunes:summary>Jamiroquai fue una especie de banda extraña para su época, su música no era moda, en tiempos donde era muy importante la moda. Acid Jazz, Funk y sonidos de música negra pasados por un tamiz muy fino, con Stuart Zender como director de orquesta (no de flashes, esta claro). Zender además fue bajista de Stevie Wonder, Amy Winehouse y varios proyectos propios.</itunes:summary>
+            
+            <enclosure url="https://gen-fm.github.io/del-segundo/audios-y-rss/audios/s01e01-delsegundo.mp3" length="10281880" type="audio/mpeg"/>
+
+            <itunes:image href="https://gen-fm.github.io/del-segundo/audios-y-rss/audios/s01e01-delsegundo.png" />
+
+        </item>
+        
+
+    </channel>
+</rss>
