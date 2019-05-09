@@ -22,7 +22,8 @@ import urllib
 
 
 # el primer parámetro de la llamada debe indicar la carpeta donde buscar
-directorio = 'audios'
+aca = os.path.dirname(os.path.abspath(__file__))
+directorio = '{}/audios'.format(aca)
 mp3s = []
 # todos los links publicos en la web dependeran de una misma base dependiendo de donde se publique este código
 base_web = 'https://gen-fm.github.io/del-segundo'
@@ -126,11 +127,12 @@ for mp3 in mp3s:
 
 # aplicarla a todos los templates disponibles en la carpeta templates-rss
 canal_info['RSSs'] = []  # dejar disponible para mostrar
-for filename in os.listdir('templates-rss'):
+dir_rss = '{}/templates-rss'.format(aca)
+for filename in os.listdir(dir_rss):
     if filename.endswith('.tpl'):
         print('Template encontrado {}'.format(filename))
         base_template = filename.replace('.tpl', '')
-        tpl = open('templates-rss/{}'.format(filename))
+        tpl = open('{}/{}'.format(dir_rss, filename))
         template = Template(tpl.read())
         tpl.close()
         rss = template.render(canal_info)
@@ -150,7 +152,7 @@ for filename in os.listdir('templates-rss'):
 # aplicarla a todos los templates disponibles en la carpeta templates-html
 
 # crear la home del sitio
-tpl = open('templates-html/home.html')
+tpl = open('{}/templates-html/home.html'.format(aca))
 template = Template(tpl.read())
 tpl.close()
 index = template.render(canal_info)
@@ -164,11 +166,13 @@ dic = {'canal': canal_info, 'episodios': episodios}
 
 for episodio in episodios:
     # crear html del episodio
-    tpl = open('templates-html/episode.html')
+    tpl = open('{}/templates-html/episode.html'.format(aca))
     template = Template(tpl.read())
     tpl.close()
     dic['episodio'] = episodio
     epihtml = template.render(dic)
-    file_resultado = open('../{}.html'.format(episodio['base_name']), 'w')
+    file_html = '{}/../{}.html'.format(aca, episodio['base_name'])
+    file_resultado = open(file_html, 'w')
     file_resultado.write(epihtml)
     file_resultado.close()
+    print(colored('Se genero HTML para {} en {}'.format(episodio['titulo'], file_html), 'green'))
