@@ -46,5 +46,19 @@
 			<pubDate>Tue, 30 Apr 2019 19:00:00 +0300</pubDate>
 		</item>
         
+        <item>
+			<title>Nick Cabe</title>
+			<googleplay:description><![CDATA[Cuando se habla de rock inglés de los 90` siempre se cae en la lógica: Blur, Oasis. La escena fue enorme, brillante, con The Verve por ejemplo. Ashcroft al frente llevándose al mundo por delante y un guitarrista que era un auténtico ancho de bastos: Nick McCabe.
+            <br />Ideas: <ul>
+            </ul>]]>
+			 </googleplay:description>
+			<googleplay:author>Gen Podcast</googleplay:author>
+			<googleplay:image href='https://gen-fm.github.io/del-segundo/audios-y-rss/audios/s01e03-delsegundo.png'/>
+			<googleplay:explicit>No</googleplay:explicit>
+            <enclosure url="https://gen-fm.github.io/del-segundo/audios-y-rss/audios/s01e03-delsegundo.mp3" length="11175928" type="audio/x-mp3"/>
+			<guid>https://gen-fm.github.io/del-segundo/audios-y-rss/s01e03-delsegundo.html</guid>
+			<pubDate>Tue, 30 Apr 2019 19:00:00 +0300</pubDate>
+		</item>
+        
 	</channel>
 </rss>
